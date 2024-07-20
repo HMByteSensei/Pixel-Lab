@@ -1,6 +1,6 @@
-# Remove Red Channel from Image using Scilab
+# Remove Channel from Image using Scilab
 
-This Scilab script removes the red channel from an RGB image, leaving only the green and blue channels intact.
+This Scilab script removes the red channel from an RGB image, leaving only the green and blue channels intact. You can adjust the script to reove other channels (see **Notes** section or comments within code).
 
 ## Overview
 
@@ -30,5 +30,4 @@ The script performs the following tasks:
 
 4. **Notes**:
    - Modify the script to remove other color channels (`Green` or `Blue`) by adjusting the `img(:,:,1)`, `img(:,:,2)`, or `img(:,:,3)` lines accordingly.
-   - Ensure the selected image is accessible and located in the same directory as the script, or update the file path accordingly.
 
